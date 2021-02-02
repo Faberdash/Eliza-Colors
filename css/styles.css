@@ -1,0 +1,44 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #999;
+}
+
+.colored-section {
+  background-color: #E9E4DC;
+}
+
+/* Nav Bar*/
+.navbar-brand {
+  color: #333;
+  font-family: 'Rufina', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 15px 80px 5px 20px;
+}
+
+.navbar-brand:hover {
+  color: #333;
+}
+
+.nav-item {
+  margin: 10px 5px 0;
+}
+
+.nav-link {
+  color: #444;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.nav-link:hover {
+  color: #666;
+}
+
+.page-marker {
+  background-color: #444;
+  bottom: 20px;
+  height: 1px;
+  left: 220px;
+  position: relative;
+  width: 50px;
+}
