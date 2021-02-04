@@ -1,10 +1,15 @@
 body {
-  font-family: 'Nunito', sans-serif;
   background-color: #999;
+  font-family: 'Nunito', sans-serif;
 }
 
 .colored-section {
   background-color: #E9E4DC;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
 }
 
 /* Nav Bar*/
@@ -13,7 +18,7 @@ body {
   font-family: 'Rufina', serif;
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 15px 80px 5px 20px;
+  margin: 15px 80px 5px 30px;
 }
 
 .navbar-brand:hover {
@@ -38,7 +43,43 @@ body {
   background-color: #444;
   bottom: 20px;
   height: 1px;
-  left: 220px;
+  left: 228px;
   position: relative;
   width: 50px;
+}
+
+/* Landing Page*/
+.landing-page-img-container {
+  background-image: url("../Images/Landing_Page_Image.png");
+  height: 48.25rem;
+  text-align: center;
+  width: 100%;
+}
+
+.header {
+  color: #111;
+  float: right;
+  font-family: 'Rufina', serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 170px 80px 20px;
+}
+
+.seperator {
+  background-color: #111;
+  height: 7px;
+  left: 1000px;
+  position: relative;
+  top: 245px;
+  width: 100px;
+}
+
+.bio {
+  color: #333;
+  display: inline-block;
+  float: right;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 15px 75px 20px 500px;
+  width: 30%;
 }
