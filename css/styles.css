@@ -7,6 +7,10 @@ body {
   background-color: #E9E4DC;
 }
 
+.grey-section {
+  background-color: #D6D6D6;
+}
+
 .container-fluid {
   margin: 0;
   padding: 0;
@@ -50,8 +54,9 @@ body {
 
 /* Landing Page*/
 .landing-page-img-container {
+  background: 100% 100%;
   background-image: url("../Images/Landing_Page_Image.png");
-  height: 48.25rem;
+  height: 46.5625rem;
   text-align: center;
   width: 100%;
 }
@@ -60,26 +65,51 @@ body {
   color: #111;
   float: right;
   font-family: 'Rufina', serif;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   font-weight: bold;
-  margin: 170px 80px 20px;
+  margin: 150px 80px 20px;
 }
 
 .seperator {
   background-color: #111;
   height: 7px;
-  left: 1000px;
+  left: 975px;
   position: relative;
-  top: 245px;
-  width: 100px;
+  top: 225px;
+  width: 110px;
 }
 
 .bio {
-  color: #333;
-  display: inline-block;
+  color: #444;
   float: right;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 600;
-  margin: 15px 75px 20px 500px;
-  width: 30%;
+  margin: 10px 55px 20px 500px;
+  width: 35%;
+}
+
+/* Gallery Preview */
+.grid {
+  display: grid;
+  grid-gap: 0.5rem;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 25px 30px;
+}
+
+.img-container {
+  background-color: #777;
+}
+
+.img1 {
+  grid-column: 1/2;
+  grid-row: 1/40;
+}
+
+.img2 {
+ grid-row: 1/20;
+}
+
+.img3 {
+ grid-row: 1/20;
 }
