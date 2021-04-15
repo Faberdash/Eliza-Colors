@@ -93,7 +93,7 @@ body {
   display: grid;
   grid-gap: 0.5rem;
   /* grid-template-columns: repeat(3, 1fr); */
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 3fr 4fr 4fr;
   padding: 25px 30px;
 }
 
@@ -102,14 +102,69 @@ body {
 }
 
 .img1 {
-  grid-column: 1/2;
-  grid-row: 1/40;
+  background: 100% 100%;
+  background-image: url("../Images/Art_Work/Copia_de_Nuevo.png");
+  background-size: cover;
+  /* grid-column: 1/2; */
+  grid-row: 1/60;
 }
 
 .img2 {
- grid-row: 1/20;
+  background: 100% 100%;
+  background-image: url("../Images/Art_Work/Another_one_bites_the_dust.png");
+  background-size: cover;
+  grid-row: 1/80;
 }
 
 .img3 {
- grid-row: 1/20;
+  background: 100% 100%;
+  background-image: url("../Images/Art_Work/PISCINA.png");
+  background-size: cover;
+  grid-row: 1/80;
+}
+
+.img4 {
+  grid-row: 60/120;
+}
+
+.img5 {
+  grid-column: 2/4;
+  grid-row: 80/120;
+}
+
+.img6 {
+  grid-row: 120/170;
+}
+
+.img7 {
+  grid-row: 120/170;
+}
+
+.mg-btn {
+  /* border: 2px; */
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 20px 35px;
+  padding: 10px;
+  text-align: center;
+  width: 12%;
+}
+
+/* Art Process */
+.title {
+  color: #111;
+  font-family: 'Rufina', serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 40px 30px;
+  margin: 0;
+}
+
+#ap-carousel {
+  width: 45%;
+  padding-bottom: 30px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  color: #444;
 }
