@@ -20,9 +20,9 @@ body {
 .navbar-brand {
   color: #333;
   font-family: 'Rufina', serif;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: bold;
-  margin: 15px 80px 5px 30px;
+  margin: 15px 90px 5px 40px;
 }
 
 .navbar-brand:hover {
@@ -80,7 +80,7 @@ body {
 }
 
 .bio {
-  color: #444;
+  color: #333;
   float: right;
   font-size: 1.35rem;
   font-weight: 600;
