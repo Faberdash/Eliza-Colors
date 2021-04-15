@@ -124,30 +124,42 @@ body {
 }
 
 .img4 {
-  grid-row: 60/120;
+  background: 100% 100%;
+  background-image: url("../Images/Art_Work/Orquídea.png");
+  background-size: cover;
+  grid-row: 60/130;
 }
 
 .img5 {
+  background: 100% 100%;
+  background-image: url("../Images/Art_Work/Princess\ of\ China.png");
+  background-size: cover;
   grid-column: 2/4;
-  grid-row: 80/120;
+  grid-row: 80/130;
 }
 
 .img6 {
-  grid-row: 120/170;
+  background: 100% 100%;
+  background-image: url("../Images/Art_Work/Futuro.png");
+  background-size: cover;
+  grid-row: 130/200;
 }
 
 .img7 {
-  grid-row: 120/170;
+  background: 100% 100%;
+  background-image: url("../Images/Art_Work/LIMON.PNG");
+  background-size: cover;
+  grid-row: 130/200;
 }
 
 .mg-btn {
   /* border: 2px; */
   font-size: 1.25rem;
-  font-weight: 600;
-  margin: 20px 35px;
-  padding: 10px;
+  font-weight: 700;
+  margin: 30px 30px;
+  /* padding: 10px; */
   text-align: center;
-  width: 12%;
+  width: 14%;
 }
 
 /* Art Process */
