@@ -111,55 +111,55 @@ body {
 
 .img2 {
   background: 100% 100%;
-  background-image: url("../Images/Art_Work/Another_one_bites_the_dust.png");
+  background-image: url("../Images/Art_Work/another\ one\ bites\ the\ dust.png");
   background-size: cover;
-  grid-row: 1/80;
+  grid-row: 1/75;
 }
 
 .img3 {
   background: 100% 100%;
   background-image: url("../Images/Art_Work/PISCINA.png");
   background-size: cover;
-  grid-row: 1/80;
+  grid-row: 1/75;
 }
 
 .img4 {
   background: 100% 100%;
   background-image: url("../Images/Art_Work/Orquídea.png");
   background-size: cover;
-  grid-row: 60/130;
+  grid-row: 60/120;
 }
 
 .img5 {
   background: 100% 100%;
-  background-image: url("../Images/Art_Work/Princess\ of\ China.png");
+  background-image: url("../Images/Art_Work/Destinos.png");
   background-size: cover;
   grid-column: 2/4;
-  grid-row: 80/130;
+  grid-row: 75/120;
 }
 
 .img6 {
   background: 100% 100%;
-  background-image: url("../Images/Art_Work/Futuro.png");
+  background-image: url("../Images/Art_Work/ELECHI.PNG");
   background-size: cover;
-  grid-row: 130/200;
+  grid-row: 120/190;
 }
 
 .img7 {
   background: 100% 100%;
   background-image: url("../Images/Art_Work/LIMON.PNG");
   background-size: cover;
-  grid-row: 130/200;
+  grid-row: 120/190;
 }
 
 .mg-btn {
   /* border: 2px; */
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin: 30px 30px;
   /* padding: 10px; */
   text-align: center;
-  width: 14%;
+  width: 13%;
 }
 
 /* Art Process */
