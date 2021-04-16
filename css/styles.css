@@ -43,15 +43,6 @@ body {
   color: #666;
 }
 
-.page-marker {
-  background-color: #444;
-  bottom: 20px;
-  height: 1px;
-  left: 228px;
-  position: relative;
-  width: 50px;
-}
-
 /* Landing Page*/
 .landing-page-img-container {
   background: 100% 100%;
@@ -166,17 +157,27 @@ body {
 .title {
   color: #111;
   font-family: 'Rufina', serif;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: bold;
   padding: 40px 30px;
   margin: 0;
 }
 
-#ap-carousel {
-  width: 45%;
+/* #ap-carousel {
+  display: inline-block;
   padding-bottom: 30px;
+  width: 45%;
+} */
+
+/* .carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: #444;
+} */
+
+.ap-header {
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
-.carousel-control-next, .carousel-control-prev {
-  color: #444;
-}
+.ap-description {
+  font-size: 1.25rem;
+} 
