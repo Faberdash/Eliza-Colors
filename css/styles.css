@@ -3,6 +3,11 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+.link {
+  color: white;
+  text-decoration: none;
+}
+
 .colored-section {
   background-color: #E9E4DC;
 }
@@ -146,14 +151,22 @@ body {
 .mg-btn {
   /* border: 2px; */
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 600;
   margin: 30px 30px;
   /* padding: 10px; */
   text-align: center;
   width: 13%;
 }
+.mg-btn:focus {
+  box-shadow: none;
+}
 
 /* Art Process */
+#art-process .col, .row {
+  padding: 0;
+  margin: 0;
+}
+
 .title {
   color: #111;
   font-family: 'Rufina', serif;
@@ -181,3 +194,32 @@ body {
 .ap-description {
   font-size: 1.25rem;
 } 
+
+/* Contact me */
+.cta-header {
+  color: #444;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 50px 20px 5px;
+}
+
+.cta-description {
+  color: #444;
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding: 25px 20px;
+  width: 65%;
+}
+
+.cta-btn {
+  font-size: 1.4rem;
+  margin: 0 20px 30px;
+  padding: 20px;
+}
+
+.cta-btn:focus {
+  box-shadow: none;
+}
+
+
+
