@@ -48,6 +48,16 @@ body {
   color: #666;
 }
 
+/* .nav-social-media-btn {
+  background-color: #E9E4DC;
+  border: none;
+  color: #444;
+}
+
+.nav-social-media-btn:hover {
+  color: #666;
+} */
+
 /* Landing Page*/
 .landing-page-img-container {
   background: 100% 100%;
@@ -221,5 +231,42 @@ body {
   box-shadow: none;
 }
 
+/* Footer */
+.footer{
+  color: #444;
+  background-color: #D8D9C9;
+  font-size: 1.1rem;
+}
+
+.social-media-btn {
+  border: none;
+  background-color: #D8D9C9;
+  color: #444;
+  margin: 40px 0px 30px;
+}
+
+.social-media-btn:hover {
+  color: #8f8f8f;
+}
+
+.footer-brand {
+  font-family: 'Rufina', serif;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.signature {
+  float: right;
+  margin: 40px 50px 0;
+}
+
+.signature a {
+  color: #444;
+  /* text-decoration: none; */
+}
+
+.signature a:hover {
+  color: #666;
+}
 
 
