@@ -3,6 +3,10 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+a {
+  padding: 0;
+}
+
 .link {
   color: white;
   text-decoration: none;
@@ -27,7 +31,7 @@ body {
   font-family: 'Rufina', serif;
   font-size: 1.75rem;
   font-weight: bold;
-  margin: 15px 90px 5px 40px;
+  margin: 15px 80px 5px 40px;
 }
 
 .navbar-brand:hover {
@@ -35,17 +39,23 @@ body {
 }
 
 .nav-item {
-  margin: 10px 5px 0;
+  margin: 10px 8px 0;
 }
 
 .nav-link {
   color: #444;
   font-size: 1.125rem;
   font-weight: 300;
+  padding: 2px 4px !important;
 }
 
 .nav-link:hover {
   color: #666;
+  border-color: #666;
+}
+
+.indexed {
+  border-bottom: 1px solid #444;
 }
 
 /* .nav-social-media-btn {
@@ -67,31 +77,36 @@ body {
   width: 100%;
 }
 
+.landing-page-table {
+  float: right;
+  width: 50%;
+}
+
 .header {
   color: #111;
-  float: right;
   font-family: 'Rufina', serif;
   font-size: 3.75rem;
   font-weight: bold;
-  margin: 150px 80px 20px;
+  margin: 150px 0 5px 125px;
+  width: 75%;
 }
 
-.seperator {
-  background-color: #111;
-  height: 7px;
-  left: 975px;
-  position: relative;
-  top: 225px;
+.separator {
+  background-color: #000;
+  border-color: #000 !important;
+  border-style: solid none none;
+  border-width: 7px;
+  display: inline-block;
+  margin-left: 295px;
   width: 110px;
 }
 
 .bio {
   color: #333;
-  float: right;
   font-size: 1.35rem;
   font-weight: 600;
-  margin: 10px 55px 20px 500px;
-  width: 35%;
+  margin: 5px 0 0 140px;
+  width: 70%;
 }
 
 /* Gallery Preview */
